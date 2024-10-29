@@ -1,0 +1,18 @@
+[package]
+name = "taxocli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+clap = "4.5.20"
+cron = "0.12.1"
+fake = "2.10.0"
+prettytable = "0.10.0"
+rand = "0.8.5"
+regex = "1.11.1"
+reqwest = { version = "0.12.8", features = ["json", "blocking"] }
+serde = { version = "1.0.213", features = ["derive"] }
+serde_json = "1.0.132"
+serde_yaml = "0.9.34"
+uuid = "1.11.0"
